@@ -1,33 +1,176 @@
 {
-  "projects": [
+  "cookies": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "image_url": "https://www.bigbasket.com/media/uploads/p/l/40237188_1-cadbury-oreo-vanilla-creme-original-chocolatey-sandwich-biscuit.jpg",
+      "brand": "Oreo",
+      "name": "Oreo choco",
+      "description": "Lorem ipsum",
+      "origin_country": "Usa",
+      "buy_country": "Spain",
+      "buy_supermarket": "Mercadona",
+      "celiac": true,
+      "ingredients": [
+        "azucar",
+        "harina"
+      ],
+      "allergen": {
+        "cereal": true,
+        "soy": true,
+        "wheat": true,
+        "milk": true
+      },
+      "nutrients": {
+        "kcal": 390,
+        "protein": 16
+      }
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "image_url": "https://www.supermercadoseljamon.com/documents/10180/892067/19005200_G.jpg",
+      "brand": "Artiach",
+      "name": "Dinosaurus",
+      "description": "Lorem ipsum",
+      "origin_country": "Spain",
+      "buy_country": "Spain",
+      "buy_supermarket": "Día",
+      "celiac": true,
+      "ingredients": [
+        "sugar",
+        "flour"
+      ],
+      "allergen": {
+        "cereal": true,
+        "soy": false,
+        "wheat": true,
+        "milk": true
+      },
+      "nutrients": {
+        "kcal": 400,
+        "protein": 20
+      },
+      "id": 2
+    },
+    {
+      "image_url": "https://www.lacasadelasgolosinas.com/6667-thickbox_default/galletas-maria-cuetara-pack-4x200gr.jpg",
+      "brand": "Cuétara",
+      "name": "Maria",
+      "description": "Lorem ipsum",
+      "origin_country": "Spain",
+      "buy_country": "Ucrania",
+      "buy_supermarket": "ATB",
+      "celiac": false,
+      "ingredients": [
+        "sugar",
+        "flour",
+        "butter"
+      ],
+      "allergen": {
+        "cereal": true,
+        "soy": false,
+        "wheat": true,
+        "milk": true
+      },
+      "nutrients": {
+        "kcal": 150,
+        "protein": 10
+      },
+      "id": 3
+    },
+    {
+      "image_url": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202308/30/00120610002063____10__600x600.jpg",
+      "brand": "Mondelez",
+      "name": "Principe",
+      "description": "Lorem ipsum",
+      "origin_country": "Spain",
+      "buy_country": "Mexico",
+      "buy_supermarket": "Walmart",
+      "celiac": false,
+      "ingredients": [
+        "sugar",
+        "flour",
+        "butter",
+        "chocolate"
+      ],
+      "allergen": {
+        "cereal": true,
+        "soy": false,
+        "wheat": true,
+        "milk": true
+      },
+      "nutrients": {
+        "kcal": 300,
+        "protein": 5
+      },
+      "id": 4
+    },
+    {
+      "image_url": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e6c6696-2ee8-4cde-a8e5-e841efc59e1f/1280x1280.webp",
+      "brand": "Mondelez",
+      "name": "Milka choco biscuit",
+      "description": "Lorem ipsum",
+      "origin_country": "Switzerland",
+      "buy_country": "Japan",
+      "buy_supermarket": "Carrefour",
+      "celiac": false,
+      "ingredients": [
+        "sugar",
+        "flour",
+        "butter",
+        "chocolate"
+      ],
+      "allergen": {
+        "cereal": true,
+        "soy": true,
+        "wheat": true,
+        "milk": true
+      },
+      "nutrients": {
+        "kcal": 488,
+        "protein": 6
+      },
+      "id": 5
     }
   ],
-  "tasks": [
+  "reviews": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "cookieId": 1,
+      "like": false,
+      "dipping_rating": 1,
+      "user_name": "Cris",
+      "comment_text": "Best cookies i ever had"
     },
     {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "cookieId": 1,
+      "like": false,
+      "dipping_rating": 3,
+      "user_name": "Diego",
+      "comment_text": "The best of the best",
+      "id": 2
     },
     {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "cookieId": 3,
+      "like": true,
+      "dipping_rating": 3,
+      "user_name": "Samu",
+      "comment_text": "Nice cookie to have a coffee",
+      "id": 3
+    },
+    {
+      "cookieId": 4,
+      "like": true,
+      "dipping_rating": 5,
+      "user_name": "Maria",
+      "comment_text": "Wow, what a cookie...omg",
+      "id": 4
+    },
+    {
+      "cookieId": 5,
+      "like": true,
+      "dipping_rating": 5,
+      "user_name": "Rodolfo",
+      "comment_text": "Milka is the best but better is the lemon pie i ate for my birthday",
+      "id": 5
     }
   ]
 }
