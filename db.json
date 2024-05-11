@@ -2,7 +2,7 @@
   "cookies": [
     {
       "id": 1,
-      "image_url": "https://www.bigbasket.com/media/uploads/p/l/40237188_1-cadbury-oreo-vanilla-creme-original-chocolatey-sandwich-biscuit.jpg",
+      "image_url": "https://www.cashmoron.es/wp-content/uploads/mondelez-oreo-original.jpg",
       "brand": "Oreo",
       "name": "Oreo choco",
       "description": "Lorem ipsum",
@@ -82,7 +82,7 @@
       "name": "Principe",
       "description": "Lorem ipsum",
       "origin_country": "Spain",
-      "buy_country": "Mexico",
+      "buy_country": "Usa",
       "buy_supermarket": "Walmart",
       "celiac": false,
       "ingredients": [
