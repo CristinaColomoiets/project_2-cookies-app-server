@@ -1,14 +1,14 @@
 {
-  "cookies": [
+  "cookie": [
     {
-      "id": 1,
-      "image_url": "https://www.cashmoron.es/wp-content/uploads/mondelez-oreo-original.jpg",
+      "id": "1",
+      "imageUrl": "https://www.cashmoron.es/wp-content/uploads/mondelez-oreo-original.jpg",
       "brand": "Oreo",
-      "name": "Oreo choco",
+      "name": "Oreo (original)",
       "description": "Lorem ipsum",
-      "origin_country": "Usa",
-      "buy_country": "Spain",
-      "buy_supermarket": "Mercadona",
+      "originCountry": "Usa",
+      "buyCountry": "Spain",
+      "buySupermarket": "Mercadona",
       "celiac": true,
       "ingredients": [
         "azucar",
@@ -26,13 +26,14 @@
       }
     },
     {
-      "image_url": "https://www.supermercadoseljamon.com/documents/10180/892067/19005200_G.jpg",
+      "id": "2",
+      "imageUrl": "https://www.supermercadoseljamon.com/documents/10180/892067/19005200_G.jpg",
       "brand": "Artiach",
       "name": "Dinosaurus",
       "description": "Lorem ipsum",
-      "origin_country": "Spain",
-      "buy_country": "Spain",
-      "buy_supermarket": "Día",
+      "originCountry": "Spain",
+      "buyCountry": "Spain",
+      "buySupermarket": "Día",
       "celiac": true,
       "ingredients": [
         "sugar",
@@ -47,17 +48,17 @@
       "nutrients": {
         "kcal": 400,
         "protein": 20
-      },
-      "id": 2
+      }
     },
     {
-      "image_url": "https://www.lacasadelasgolosinas.com/6667-thickbox_default/galletas-maria-cuetara-pack-4x200gr.jpg",
+      "id": "3",
+      "imageUrl": "https://www.lacasadelasgolosinas.com/6667-thickbox_default/galletas-maria-cuetara-pack-4x200gr.jpg",
       "brand": "Cuétara",
       "name": "Maria",
       "description": "Lorem ipsum",
-      "origin_country": "Spain",
-      "buy_country": "Ucrania",
-      "buy_supermarket": "ATB",
+      "originCountry": "Spain",
+      "buyCountry": "Ucrania",
+      "buySupermarket": "ATB",
       "celiac": false,
       "ingredients": [
         "sugar",
@@ -73,17 +74,17 @@
       "nutrients": {
         "kcal": 150,
         "protein": 10
-      },
-      "id": 3
+      }
     },
     {
-      "image_url": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202308/30/00120610002063____10__600x600.jpg",
+      "id": "4",
+      "imageUrl": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202308/30/00120610002063____10__600x600.jpg",
       "brand": "Mondelez",
       "name": "Principe",
       "description": "Lorem ipsum",
-      "origin_country": "Spain",
-      "buy_country": "Usa",
-      "buy_supermarket": "Walmart",
+      "originCountry": "Spain",
+      "buyCountry": "Usa",
+      "buySupermarket": "Walmart",
       "celiac": false,
       "ingredients": [
         "sugar",
@@ -100,17 +101,17 @@
       "nutrients": {
         "kcal": 300,
         "protein": 5
-      },
-      "id": 4
+      }
     },
     {
-      "image_url": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e6c6696-2ee8-4cde-a8e5-e841efc59e1f/1280x1280.webp",
+      "id": "5",
+      "imageUrl": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e6c6696-2ee8-4cde-a8e5-e841efc59e1f/1280x1280.webp",
       "brand": "Mondelez",
       "name": "Milka choco biscuit",
       "description": "Lorem ipsum",
-      "origin_country": "Switzerland",
-      "buy_country": "Japan",
-      "buy_supermarket": "Carrefour",
+      "originCountry": "Switzerland",
+      "buyCountry": "Japan",
+      "buySupermarket": "Carrefour",
       "celiac": false,
       "ingredients": [
         "sugar",
@@ -127,50 +128,73 @@
       "nutrients": {
         "kcal": 488,
         "protein": 6
-      },
-      "id": 5
+      }
     }
   ],
   "reviews": [
     {
-      "id": 1,
-      "cookieId": 1,
+      "id": "1",
+      "cookieId": "1",
       "like": false,
-      "dipping_rating": 1,
-      "user_name": "Cris",
-      "comment_text": "Best cookies i ever had"
+      "dippingRating": 5,
+      "userName": "Cris",
+      "commentText": "Best cookies I ever had"
     },
     {
-      "cookieId": 1,
+      "id": "2",
+      "cookieId": "1",
       "like": false,
-      "dipping_rating": 3,
-      "user_name": "Diego",
-      "comment_text": "The best of the best",
-      "id": 2
+      "dippingRating": 4,
+      "userName": "Diego",
+      "commentText": "The best of the best"
     },
     {
-      "cookieId": 3,
+      "id": "3",
+      "cookieId": "3",
       "like": true,
-      "dipping_rating": 3,
-      "user_name": "Samu",
-      "comment_text": "Nice cookie to have a coffee",
-      "id": 3
+      "dippingRating": 3,
+      "userName": "Samu",
+      "commentText": "Nice cookie to have a coffee"
     },
     {
-      "cookieId": 4,
+      "id": "4",
+      "cookieId": "4",
       "like": true,
-      "dipping_rating": 5,
-      "user_name": "Maria",
-      "comment_text": "Wow, what a cookie...omg",
-      "id": 4
+      "dippingRating": 5,
+      "userName": "Maria",
+      "commentText": "Wow, what a cookie...omg"
     },
     {
-      "cookieId": 5,
+      "id": "5",
+      "cookieId": "5",
       "like": true,
-      "dipping_rating": 5,
-      "user_name": "Rodolfo",
-      "comment_text": "Milka is the best but better is the lemon pie i ate for my birthday",
-      "id": 5
+      "dippingRating": 5,
+      "userName": "Rodolfo",
+      "commentText": "Milka is the best but better is the lemon pie I ate for my birthday"
+    },
+    {
+      "cookieId": "1",
+      "like": false,
+      "dippingRating": 1,
+      "userName": "Diego",
+      "commentText": "Test",
+      "id": "jvjRash"
+    },
+    {
+      "cookieId": "1",
+      "like": false,
+      "dippingRating": 1,
+      "userName": "Samu",
+      "commentText": "test",
+      "id": "vUVL00M"
+    },
+    {
+      "cookieId": "1",
+      "like": false,
+      "dippingRating": 5,
+      "userName": "Diego",
+      "commentText": "test",
+      "id": "ApJhMw0"
     }
   ]
 }
