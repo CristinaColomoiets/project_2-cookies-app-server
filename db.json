@@ -1,18 +1,19 @@
 {
   "cookie": [
     {
-      "id": "1",
+      "id": 1,
       "imageUrl": "https://www.cashmoron.es/wp-content/uploads/mondelez-oreo-original.jpg",
       "brand": "Oreo",
       "name": "Oreo (original)",
-      "description": "Lorem ipsum",
+      "description": "This is what a double cookie should be like. Two halves of cocoa with vanilla cream filling: This is the classic among Oreo cookies. Here you get 3 snack packs, each with 3 double cookies. They are ideal to take away and as a small snack between meals.",
       "originCountry": "Usa",
       "buyCountry": "Spain",
       "buySupermarket": "Mercadona",
-      "celiac": true,
+      "celiac": false,
       "ingredients": [
-        "azucar",
-        "harina"
+        "Sugar",
+        "Flour",
+        "Chocolate"
       ],
       "allergen": {
         "cereal": true,
@@ -26,18 +27,19 @@
       }
     },
     {
-      "id": "2",
       "imageUrl": "https://www.supermercadoseljamon.com/documents/10180/892067/19005200_G.jpg",
       "brand": "Artiach",
       "name": "Dinosaurus",
-      "description": "Lorem ipsum",
+      "description": "Delicious cookies with a layer of real milk chocolate and a Dinosaur shape for children to have fun at breakfast or snack. They come in comfortable individual bags, the right dose to eat inside or outside the home and are endorsed by the Spanish Pediatric Association.",
       "originCountry": "Spain",
       "buyCountry": "Spain",
       "buySupermarket": "Día",
       "celiac": true,
+      "forKids": true,
       "ingredients": [
-        "sugar",
-        "flour"
+        "flour",
+        "milk",
+        "fructose"
       ],
       "allergen": {
         "cereal": true,
@@ -48,18 +50,19 @@
       "nutrients": {
         "kcal": 400,
         "protein": 20
-      }
+      },
+      "id": 2
     },
     {
-      "id": "3",
       "imageUrl": "https://www.lacasadelasgolosinas.com/6667-thickbox_default/galletas-maria-cuetara-pack-4x200gr.jpg",
       "brand": "Cuétara",
       "name": "Maria",
-      "description": "Lorem ipsum",
+      "description": "Cuétara cookies are made with OletoEquilibre, a nutritionally optimized combination of vegetable oils. Cuétara recommends that you replace saturated fatty acids with unsaturated fatty acids in your diet, within a varied and balanced diet and within the framework of a healthy lifestyle.",
       "originCountry": "Spain",
       "buyCountry": "Ucrania",
       "buySupermarket": "ATB",
       "celiac": false,
+      "forKids": true,
       "ingredients": [
         "sugar",
         "flour",
@@ -74,18 +77,19 @@
       "nutrients": {
         "kcal": 150,
         "protein": 10
-      }
+      },
+      "id": 3
     },
     {
-      "id": "4",
       "imageUrl": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202308/30/00120610002063____10__600x600.jpg",
       "brand": "Mondelez",
       "name": "Principe",
-      "description": "Lorem ipsum",
+      "description": "Cookies filled with chocolate cream Delicious cookies, crunchy and tasty, filled with a soft chocolate cream. Ideal for your breakfasts and snacks",
       "originCountry": "Spain",
       "buyCountry": "Usa",
       "buySupermarket": "Walmart",
       "celiac": false,
+      "forKids": false,
       "ingredients": [
         "sugar",
         "flour",
@@ -101,18 +105,19 @@
       "nutrients": {
         "kcal": 300,
         "protein": 5
-      }
+      },
+      "id": 4
     },
     {
-      "id": "5",
       "imageUrl": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/0e6c6696-2ee8-4cde-a8e5-e841efc59e1f/1280x1280.webp",
       "brand": "Mondelez",
       "name": "Milka choco biscuit",
-      "description": "Lorem ipsum",
+      "description": "Crispy wheat cookies covered with a layer of Milka milk chocolate on top.",
       "originCountry": "Switzerland",
       "buyCountry": "Japan",
       "buySupermarket": "Carrefour",
       "celiac": false,
+      "forKids": true,
       "ingredients": [
         "sugar",
         "flour",
@@ -128,73 +133,129 @@
       "nutrients": {
         "kcal": 488,
         "protein": 6
-      }
+      },
+      "id": 5
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/916xEHe1ChL._AC_SX679_.jpg",
+      "brand": "Royal Dansk",
+      "name": "Royal Dansk",
+      "description": "Exquisite Royal Dansk Danish butter cookies. The original Danish cookies ideal for coffee or tea. One of the most appetizing Christmas sweets.",
+      "originCountry": "Denmark",
+      "buyCountry": "Spain",
+      "buySupermarket": "El Corte Inglés",
+      "celiac": false,
+      "forKids": true,
+      "ingredients": [
+        "Sugar",
+        "Cacao",
+        "Butter"
+      ],
+      "id": 6
+    },
+    {
+      "imageUrl": "https://d3gr7hv60ouvr1.cloudfront.net/CACHE/images/products/487a74bb-9a48-41a8-ac13-c49414de4c05/8f02b06e708bf2ba9d350f2861a3172a.jpg",
+      "brand": "Gullón's",
+      "name": "Maria Gluten free",
+      "description": "Gullón's Gluten-Free Maria Cookies are delicious cookies made with the original recipe, but gluten-free!",
+      "originCountry": "Spain",
+      "buyCountry": "Spain",
+      "buySupermarket": "El Corte Inglés",
+      "celiac": true,
+      "forKids": true,
+      "ingredients": [
+        "Corn flour",
+        "Vegetable oil",
+        "Butter",
+        "Sugar"
+      ],
+      "id": 6
+    },
+    {
+      "imageUrl": "https://www.castrofarmacias.com/media/catalog/product/cache/edf7b936402ad2210b32c215604fc9c6/a/l/almir_n_galletas_6_meses_nueva_formula.jpg",
+      "brand": "Advance Almirón",
+      "name": "Advance Almirón",
+      "description": "Advance Almirón Cookies are made with cereals with slowly absorbed and easily assimilated carbohydrates, and provide your baby with a large number of vitamins and minerals.",
+      "originCountry": "England",
+      "buyCountry": "Italy",
+      "buySupermarket": "El Corte Inglés",
+      "celiac": true,
+      "forKids": true,
+      "ingredients": [
+        "Corn flour",
+        "Vegetable oil",
+        "Butter",
+        "Fructose"
+      ],
+      "id": 6
+    },
+    {
+      "imageUrl": "https://lacolonialdeultramar.com/2359-superlarge_default_2x/mini-shortbread-fingers-walkers-125-g.webp",
+      "brand": "Walkers",
+      "name": "Mini Shortbread Fingers Walkers",
+      "description": "These cookie bites are baked with just 4 ingredients: fresh butter, flour, sugar and salt. The Mini Fingers come in a bag, ideal for snacking and sharing in the car, the office, the park or wherever and whenever you feel like it. The perfect accompaniment to tea, coffee or even ice cream..",
+      "originCountry": "England",
+      "buyCountry": "England",
+      "buySupermarket": "El Corte Inglés",
+      "celiac": false,
+      "forKids": false,
+      "ingredients": [
+        "Flour",
+        "Vegetable oil",
+        "Butter",
+        "Sugar"
+      ],
+      "id": 6
     }
   ],
   "reviews": [
     {
-      "id": "1",
-      "cookieId": "1",
+      "id": 1,
+      "cookieId": 1,
       "like": false,
-      "dippingRating": 5,
+      "dippingRating": 1,
       "userName": "Cris",
-      "commentText": "Best cookies I ever had"
+      "comment_text": "Best cookies i ever had"
     },
     {
-      "id": "2",
-      "cookieId": "1",
+      "cookieId": 1,
       "like": false,
-      "dippingRating": 4,
+      "dippingRating": 3,
       "userName": "Diego",
-      "commentText": "The best of the best"
+      "comment_text": "The best of the best",
+      "id": 2
     },
     {
-      "id": "3",
-      "cookieId": "3",
+      "cookieId": 3,
       "like": true,
       "dippingRating": 3,
       "userName": "Samu",
-      "commentText": "Nice cookie to have a coffee"
+      "comment_text": "Nice cookie to have a coffee",
+      "id": 3
     },
     {
-      "id": "4",
-      "cookieId": "4",
+      "cookieId": 4,
       "like": true,
       "dippingRating": 5,
       "userName": "Maria",
-      "commentText": "Wow, what a cookie...omg"
+      "comment_text": "Wow, what a cookie...omg",
+      "id": 4
     },
     {
-      "id": "5",
-      "cookieId": "5",
+      "cookieId": 5,
       "like": true,
       "dippingRating": 5,
       "userName": "Rodolfo",
-      "commentText": "Milka is the best but better is the lemon pie I ate for my birthday"
+      "comment_text": "Milka is the best but better is the lemon pie i ate for my birthday",
+      "id": 5
     },
     {
-      "cookieId": "1",
+      "cookieId": "2",
       "like": false,
       "dippingRating": 1,
-      "userName": "Diego",
-      "commentText": "Test",
-      "id": "jvjRash"
-    },
-    {
-      "cookieId": "1",
-      "like": false,
-      "dippingRating": 1,
-      "userName": "Samu",
-      "commentText": "test",
-      "id": "vUVL00M"
-    },
-    {
-      "cookieId": "1",
-      "like": false,
-      "dippingRating": 5,
-      "userName": "Diego",
-      "commentText": "test",
-      "id": "ApJhMw0"
+      "userName": "fregado",
+      "commentText": "maravillao",
+      "id": 6
     }
   ]
 }
