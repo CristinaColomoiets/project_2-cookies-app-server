@@ -3,13 +3,14 @@
     {
       "id": 1,
       "imageUrl": "https://www.cashmoron.es/wp-content/uploads/mondelez-oreo-original.jpg",
-      "brand": "Oreo",
-      "name": "Oreo (original)",
+      "brand": "Mondelez",
+      "name": "Oreo",
       "description": "This is what a double cookie should be like. Two halves of cocoa with vanilla cream filling: This is the classic among Oreo cookies. Here you get 3 snack packs, each with 3 double cookies. They are ideal to take away and as a small snack between meals.",
       "originCountry": "Usa",
       "buyCountry": "Spain",
       "buySupermarket": "Mercadona",
       "celiac": false,
+      "forKids": false,
       "ingredients": [
         "Sugar",
         "Flour",
@@ -62,7 +63,7 @@
       "buyCountry": "Ucrania",
       "buySupermarket": "ATB",
       "celiac": false,
-      "forKids": true,
+      "forKids": false,
       "ingredients": [
         "sugar",
         "flour",
@@ -137,7 +138,7 @@
       "id": 5
     },
     {
-      "imageUrl": "https://m.media-amazon.com/images/I/916xEHe1ChL._AC_SX679_.jpg",
+      "imageUrl": "https://www.c-ch.com/files/modules/products/912348ab59f68a5378fba3c4ec205e8d15d4e489.jpg",
       "brand": "Royal Dansk",
       "name": "Royal Dansk",
       "description": "Exquisite Royal Dansk Danish butter cookies. The original Danish cookies ideal for coffee or tea. One of the most appetizing Christmas sweets.",
@@ -206,56 +207,146 @@
         "Sugar"
       ],
       "id": 6
+    },
+    {
+      "imageUrl": "https://saboresdelplata.es/wp-content/uploads/2018/09/Galletitas-Chocolinas-1.jpg",
+      "brand": "Bagley",
+      "name": "Chocolinas",
+      "description": "It’s a hard chocolate cookie with an exquisite texture and flavor. Perfect for pairing with coffee or tea, or for making the most delicious cake in all of South America: the Chocotorta (Chocolate + Cake). If you haven't tried it yet, don't wait any longer. It’s an incomparable delight.  Created in 1982 by Marité Mabragaña, a director at an advertising company, the Chocotorta was born from the need to combine two of her clients' products: cream cheese and Bagley’s Chocolina cookies.",
+      "originCountry": "Argentina",
+      "buyCountry": "Argentina",
+      "buySupermarket": "Coto",
+      "celiac": false,
+      "ingredients": [
+        "Sugar",
+        "Sugar",
+        "Chocolate",
+        "Chocolate",
+        "Cacao",
+        "Cacao"
+      ],
+      "forKids": false,
+      "nutrients": {
+        "kcal": "100",
+        "protein": "50"
+      },
+      "allergen": {
+        "cereal": false,
+        "soy": false,
+        "wheat": false,
+        "milk": true
+      },
+      "id": 7
+    },
+    {
+      "imageUrl": "https://golozinalujan.com/wp-content/uploads/2023/01/Diseno-sin-titulo-16-19.png",
+      "brand": "Terrabusi",
+      "name": "Melba",
+      "description": "Lemon-flavored cookies: These cookies have a delightful lemon flavor that will brighten any occasion. Proudly made in Argentina: These cookies are crafted in Argentina with pride, using traditional recipes.",
+      "originCountry": "Argentina",
+      "buyCountry": "Argentina",
+      "buySupermarket": "Carrefour",
+      "celiac": false,
+      "ingredients": [
+        "Sugar",
+        "Sugar",
+        "Flour",
+        "Flour",
+        "Chocolate",
+        "Chocolate",
+        "Cacao",
+        "Cacao"
+      ],
+      "forKids": false,
+      "nutrients": {
+        "kcal": "100",
+        "protein": "30"
+      },
+      "allergen": {
+        "cereal": false,
+        "soy": false,
+        "wheat": false,
+        "milk": true
+      },
+      "id": 8
+    },
+    {
+      "imageUrl": "https://www.pampadrugstore.net/979-large_default/merengadas-93-grs.jpg",
+      "brand": "Bagley",
+      "name": "Merengadas",
+      "description": "Another Argentine classic is Merengadas: vanilla cookies with a strawberry-flavored meringue filling, sprinkled with coconut. Kids love them for their fun factor, bright color, enticing aroma, and the ability to stretch the filling before eating.",
+      "originCountry": "Argentina",
+      "buyCountry": "Argentina",
+      "buySupermarket": "Dia",
+      "celiac": true,
+      "ingredients": [
+        "Sugar",
+        "Sugar",
+        "Fruits",
+        "Fruits"
+      ],
+      "forKids": false,
+      "nutrients": {
+        "kcal": 0,
+        "protein": 0
+      },
+      "allergen": {
+        "cereal": false,
+        "soy": false,
+        "wheat": false,
+        "milk": false
+      },
+      "id": 9
     }
   ],
   "reviews": [
     {
-      "id": 1,
+      "id": "1",
       "cookieId": 1,
       "like": false,
       "dippingRating": 1,
       "userName": "Cris",
-      "comment_text": "Best cookies i ever had"
+      "commentText": "Best cookies i ever had"
     },
     {
       "cookieId": 1,
       "like": false,
       "dippingRating": 3,
       "userName": "Diego",
-      "comment_text": "The best of the best",
-      "id": 2
+      "commentText": "The best of the best",
+      "id": "2"
     },
     {
       "cookieId": 3,
       "like": true,
       "dippingRating": 3,
       "userName": "Samu",
-      "comment_text": "Nice cookie to have a coffee",
-      "id": 3
+      "commentText": "Nice cookie to have a coffee",
+      "id": "3"
     },
     {
       "cookieId": 4,
       "like": true,
       "dippingRating": 5,
       "userName": "Maria",
-      "comment_text": "Wow, what a cookie...omg",
-      "id": 4
+      "commentText": "Wow, what a cookie...omg",
+      "id": "4"
     },
     {
       "cookieId": 5,
       "like": true,
       "dippingRating": 5,
       "userName": "Rodolfo",
-      "comment_text": "Milka is the best but better is the lemon pie i ate for my birthday",
-      "id": 5
+      "commentText": "Milka is the best but better is the lemon pie i ate for my birthday",
+      "id": "5"
     },
     {
-      "cookieId": "2",
-      "like": false,
-      "dippingRating": 1,
-      "userName": "fregado",
-      "commentText": "maravillao",
-      "id": 6
+      "cookieId": 6,
+      "like": true,
+      "dippingRating": 3,
+      "userName": "Maria",
+      "commentText": "Esto es un costurero, no hay galletas.",
+      "id": "fSId3wf"
     }
   ]
 }
